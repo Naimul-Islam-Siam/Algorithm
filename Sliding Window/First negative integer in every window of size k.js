@@ -28,7 +28,7 @@
 // --- Tricky ---
 // Time Complexity: O(n)
 // Space Complexity: O(k) queue
-printFirstNegativeInteger(n, k, arr) {
+function printFirstNegativeInteger(n, k, arr) {
    let i = 0, j = 0;
    let queue = [], result = [];
 
